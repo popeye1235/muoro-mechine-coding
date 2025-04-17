@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muoro Machine Coding Round</title>
+  <style>
+    body {
+      font-family: Consolas, monospace;
+      background-color: #1e1e1e;
+      color: #ffffff;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .logo-container {
+      margin-bottom: 1.5rem;
+    }
+
+    .logo-container img {
+      max-width: 180px;
+      height: auto;
+    }
+
+    .question-card {
+      background-color: #252525;
+      padding: 1rem;
+      border-radius: 8px;
+      width: 90%;
+      max-width: 800px;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .question-card h2 {
+      color: #ffd700;
+    }
+
+    .terminal-card {
+      background-color: #2d2d2d;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 90%;
+      max-width: 600px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      overflow-y: auto;
+      height: 300px;
+    }
+
+    .terminal-card h3 {
+      margin-top: 0;
+      color: #00ff91;
+    }
+
+    .terminal-output {
+      white-space: pre-wrap;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+    <img id="company-logo" alt="Muoro Logo"/>
+  </div>
+
+  <div class="question-card">
+    <h2>Question No. 1</h2>
+    <p>
+      A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters.
+      <br><br>
+      <strong>Example 1:</strong><br>
+      Input: s = "abc", t = "ahbgdc"<br>
+      Output: true
+      <br><br>
+      <strong>Example 2:</strong><br>
+      Input: s = "axc", t = "ahbgdc"<br>
+      Output: false
+    </p>
+  </div>
+  <div class="question-card">
+    <h2>Question No. 2</h2>
+    <p>
+      Write a recursive countdown function that prints numbers from a given number down to 1 with a delay of 1 second between each print using <code>setTimeout</code>.
+      <br><br>
+      <strong>Example:</strong><br>
+      <code>countdown(5)</code><br>
+      Output: 5 4 3 2 1 (each after 1 second)
+    </p>
+  </div>
+  <div>for rest questions check the script.js file</div>
+  <br>
+
+
+  <div class="terminal-card">
+    <div id="terminal" class="terminal-output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
